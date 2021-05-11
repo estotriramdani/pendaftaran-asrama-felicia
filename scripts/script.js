@@ -489,7 +489,7 @@ const pages = {
   </div>
   <!-- Essai  -->
         <div class="form-group">
-          <label for="" class="text-white">Apa yang kamu tentang asrama?</label>
+          <label for="" class="text-white">Apa yang kamu tahu tentang asrama?</label>
           <textarea
             name="essai"
             id="essai"

@@ -11,6 +11,7 @@ resultPage.innerHTML = `
   <form action="action/pendaftaran.php" method="POST">
         <div class="heading">
           <h2>Silakan cek lagi datanya, ya!</h2>
+          <p>Jangan sampai ada yang terlewat, ya!</p>
         </div>
 
         <!-- no_reg -->
