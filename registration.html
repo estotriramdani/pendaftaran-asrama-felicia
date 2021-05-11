@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>Pendaftaran Calon Penghuni Asrama Felicia IPB</title>
+    <script>
+      if (window.localStorage.getItem('no_pendaftaran') != null) {
+        window.location = 'sukses.php';
+      }
+    </script>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="loader__image"><img src="img/logo-asrama.png" alt="" /></div>
+    </div>
+    <div class="screen">
+      <div class="registration-page"></div>
+    </div>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
