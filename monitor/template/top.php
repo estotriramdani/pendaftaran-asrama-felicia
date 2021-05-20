@@ -1,6 +1,7 @@
 <?php include_once 'config/koneksi.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
+  <script src="js/script.js"></script>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -53,7 +54,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a href="#" class="nav-link" onclick="logout()">Logout</a>
             </li>
           </ul>
         </div>
